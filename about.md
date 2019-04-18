@@ -25,6 +25,14 @@ permalink: /about/
   </tr>
   <tr>
     <td style="text-align: center; background: #305000; color: white;">
+      <b>하는 일</b>
+    </td>
+    <td style="background: #406000; color: white;">
+      대학생
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; background: #305000; color: white;">
       <b>취미</b>
     </td>
     <td style="background: #406000; color: white;">
@@ -57,6 +65,22 @@ permalink: /about/
   </tr>
   <tr>
     <td style="text-align: center; background: #305000; color: white;">
+      <b>키</b>
+    </td>
+    <td style="background: #406000; color: white;">
+      비공개
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; background: #305000; color: white;">
+      <b>나이</b>
+    </td>
+    <td style="background: #406000; color: white;">
+      비공개
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; background: #305000; color: white;">
       <b>유튜브</b>
     </td>
     <td style="background: #406000; color: white;">
@@ -74,5 +98,12 @@ permalink: /about/
     </td>
   </tr>
 </table>
+## 목차
+1. [이름을 공개한 이유](#1-why-name-reveal)
+
+## 1. 이름을 공개한 이유
+<a name="1-why-name-reveal" style="color: black; text-decoration: none;">
+어차피 깃허브 들어가면 Inseo Oh라고 떡하니 나와서
+</a>
 
 ## 나머지는 공사중
