@@ -6,7 +6,7 @@ categories: static
 ---
 For Korean users: [**음악 크레딧과 라이선스(한국어)**는 여기를 클릭해 주시기 바랍니다.](music-credits-and-license-kr.html)
 
-This is list of music that is used by my contents.
+This is list of music used by my contents.
 
 # Music ```xxx``` isn't listed here!
 It's one of three cases:
@@ -15,7 +15,7 @@ It's one of three cases:
 - My own music
 
 # My own music
-Currently, anything that I didn't mention in credits section are my own music(except for in-game music).
+Currently, anything that I didn't mention in the credits section are my own music(except for in-game music).
 For now, I don't want anybody(except me) use my music more than 10 seconds, but I'll eventually release some of my music under Creative Commons license.
 
 # In-game music
