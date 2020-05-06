@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 연지의 웹사이트
-email: dhdlstjtr@지메일(영어로).com
+title: YeonJiKun's little blog
+email: dhdlstjtr at(@) gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  스트리머 연지의 소식이 올리오는 웹사이트입니다. 만나서 반가워요~!
+  A little place to talk about things
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: yeonjitw
+twitter_username: yeonjitwen
 github_username:  yeonji2
 
 # Build settings
