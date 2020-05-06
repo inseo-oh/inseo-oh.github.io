@@ -25,67 +25,65 @@ categories: static
 콘텐츠 제작자들을 위해 좋은 음악 만들어주신 Kevin MacLeod께 감사의 말씀 드립니다 :D
 **트위치가 가끔 이유도 없이 음악을 음소거하긴 하는데...**
 
-**참고**: 아래에 나오는 라이선스 내용들은 수정될 수 없었으며, 따라서 한국어로 번역되지 않았습니다. 각각의 링크들은 해당 음악으로 가는 링크와 라이선스로 가는 링크입니다.
-
 ## Nouvelle Noel
 ```
 Nouvelle Noel by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4147-nouvelle-noel
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/4147-nouvelle-noel
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Apero Hour
 ```
 Apero Hour by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3375-apero-hour
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/3375-apero-hour
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Lobby Time
 ```
 Lobby Time by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3986-lobby-time
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/3986-lobby-time
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Airport Lounge
 ```
 Airport Lounge by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3347-airport-lounge
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/3347-airport-lounge
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Shades of Spring
 ```
 Sneaky Snitch by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Sneaky Snitch
 ```
 Sneaky Snitch by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Marty Gots a Plan
 ```
 Marty Gots A Plan by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4992-marty-gots-a-plan
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/4992-marty-gots-a-plan
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Hidden Agenda
 ```
 Hidden Agenda by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3872-hidden-agenda
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/3872-hidden-agenda
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
 
 ## Scheming Weasel
 ```
 Scheming Weasel (faster version) by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version-
-License: http://creativecommons.org/licenses/by/4.0/
+링크: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version-
+라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
