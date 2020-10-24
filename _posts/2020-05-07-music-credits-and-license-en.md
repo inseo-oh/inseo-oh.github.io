@@ -84,6 +84,6 @@ License: http://creativecommons.org/licenses/by/4.0/
 ## Scheming Weasel
 ```
 Scheming Weasel (faster version) by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version-
+Link: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version
 License: http://creativecommons.org/licenses/by/4.0/
 ```
