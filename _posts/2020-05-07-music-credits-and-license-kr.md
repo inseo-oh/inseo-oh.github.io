@@ -84,6 +84,6 @@ Hidden Agenda by Kevin MacLeod
 ## Scheming Weasel
 ```
 Scheming Weasel (faster version) by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version-
+링크: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version
 라이선스: http://creativecommons.org/licenses/by/4.0/
 ```
