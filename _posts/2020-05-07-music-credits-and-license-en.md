@@ -55,8 +55,8 @@ License: http://creativecommons.org/licenses/by/4.0/
 
 ## Shades of Spring
 ```
-Sneaky Snitch by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
+Shades of Spring by Kevin MacLeod
+Link: https://filmmusic.io/song/4342-shades-of-spring/
 License: http://creativecommons.org/licenses/by/4.0/
 ```
 
