@@ -8,65 +8,76 @@ For Korean users: [**음악 크레딧과 라이선스(한국어)**는 여기를 
 
 This is list of music used as background music(except for games).
 
+Last update: 2022-07-09
+
 ## Nouvelle Noel
 ```
-Nouvelle Noel by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4147-nouvelle-noel
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Nouvelle Noel by Kevin MacLeod
+Free download: https://filmmusic.io/song/4147-nouvelle-noel
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Apero Hour
 ```
-Apero Hour by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3375-apero-hour
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Apero Hour by Kevin MacLeod
+Free download: https://filmmusic.io/song/3375-apero-hour
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Lobby Time
 ```
-Lobby Time by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3986-lobby-time
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Lobby Time by Kevin MacLeod
+Free download: https://filmmusic.io/song/3986-lobby-time
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Airport Lounge
 ```
-Airport Lounge by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3347-airport-lounge
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Airport Lounge by Kevin MacLeod
+Free download: https://filmmusic.io/song/3347-airport-lounge
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Shades of Spring
 ```
-Shades of Spring by Kevin MacLeod
-Link: https://filmmusic.io/song/4342-shades-of-spring/
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Shades of Spring by Kevin MacLeod
+Free download: https://filmmusic.io/song/4342-shades-of-spring
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Sneaky Snitch
 ```
-Sneaky Snitch by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Sneaky Snitch by Kevin MacLeod
+Free download: https://filmmusic.io/song/4384-sneaky-snitch
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Marty Gots a Plan
 ```
-Marty Gots A Plan by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4992-marty-gots-a-plan
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Marty Gots A Plan by Kevin MacLeod
+Free download: https://filmmusic.io/song/4992-marty-gots-a-plan
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
 
 ## Hidden Agenda
 ```
-Hidden Agenda by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/3872-hidden-agenda
-License: http://creativecommons.org/licenses/by/4.0/
-```
-
-## Scheming Weasel
-```
-Scheming Weasel (faster version) by Kevin MacLeod
-Link: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version
-License: http://creativecommons.org/licenses/by/4.0/
+The following music was used for this media project:
+Music: Hidden Agenda by Kevin MacLeod
+Free download: https://filmmusic.io/song/3872-hidden-agenda
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
 ```
