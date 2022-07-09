@@ -8,65 +8,76 @@ categories: static
 
 제 배경음악으로  사용되고 있는 음악들입니다(게임 제외).
 
+마지막 최신화: 2022-07-09
+
 ## Nouvelle Noel
 ```
-Nouvelle Noel by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/4147-nouvelle-noel
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Nouvelle Noel by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4147-nouvelle-noel
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Apero Hour
 ```
-Apero Hour by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/3375-apero-hour
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Apero Hour by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/3375-apero-hour
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Lobby Time
 ```
-Lobby Time by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/3986-lobby-time
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Lobby Time by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/3986-lobby-time
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Airport Lounge
 ```
-Airport Lounge by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/3347-airport-lounge
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Airport Lounge by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/3347-airport-lounge
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Shades of Spring
 ```
-Shades of Spring by Kevin MacLeod
-링크: https://filmmusic.io/song/4342-shades-of-spring/
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Shades of Spring by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4342-shades-of-spring
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Sneaky Snitch
 ```
-Sneaky Snitch by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/4384-sneaky-snitch
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Sneaky Snitch by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4384-sneaky-snitch
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Marty Gots a Plan
 ```
-Marty Gots A Plan by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/4992-marty-gots-a-plan
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Marty Gots A Plan by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4992-marty-gots-a-plan
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
 
 ## Hidden Agenda
 ```
-Hidden Agenda by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/3872-hidden-agenda
-라이선스: http://creativecommons.org/licenses/by/4.0/
-```
-
-## Scheming Weasel
-```
-Scheming Weasel (faster version) by Kevin MacLeod
-링크: https://incompetech.filmmusic.io/song/4326-scheming-weasel-faster-version
-라이선스: http://creativecommons.org/licenses/by/4.0/
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Hidden Agenda by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/3872-hidden-agenda
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
 ```
