@@ -81,3 +81,39 @@ Free download: https://filmmusic.io/song/3872-hidden-agenda
 License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
+
+# Midsummer Sky
+```
+The following music was used for this media project:
+Music: Midsummer Sky by Kevin MacLeod
+Free download: https://filmmusic.io/song/4049-midsummer-sky
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Clear Waters
+```
+The following music was used for this media project:
+Music: Clear Waters by Kevin MacLeod
+Free download: https://filmmusic.io/song/3516-clear-waters
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Continue Life
+```
+The following music was used for this media project:
+Music: Continue Life by Kevin MacLeod
+Free download: https://filmmusic.io/song/3545-continue-life
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Eternal Hope
+```
+The following music was used for this media project:
+Music: Eternal Hope by Kevin MacLeod
+Free download: https://filmmusic.io/song/3716-eternal-hope
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
