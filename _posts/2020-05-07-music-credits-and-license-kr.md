@@ -92,7 +92,7 @@ categories: static
 아티스트 웹사이트: https://incompetech.com
 ```
 
-# Clear Waters
+## Clear Waters
 ```
 이 미디어 프로젝트에 다음 음악이 사용되었습니다:
 음악: Clear Waters by Kevin MacLeod
@@ -101,7 +101,7 @@ categories: static
 아티스트 웹사이트: https://incompetech.com
 ```
 
-# Continue Life
+## Continue Life
 ```
 이 미디어 프로젝트에 다음 음악이 사용되었습니다:
 음악: Continue Life by Kevin MacLeod
@@ -110,7 +110,7 @@ categories: static
 아티스트 웹사이트: https://incompetech.com
 ```
 
-# Eternal Hope
+## Eternal Hope
 ```
 이 미디어 프로젝트에 다음 음악이 사용되었습니다:
 음악: Eternal Hope by Kevin MacLeod
