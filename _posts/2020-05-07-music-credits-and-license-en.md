@@ -117,3 +117,48 @@ Free download: https://filmmusic.io/song/3716-eternal-hope
 License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
+
+# Electro Cabello
+```
+The following music was used for this media project:
+Music: Electro Cabello by Kevin MacLeod
+Free download: https://filmmusic.io/song/3705-electro-cabello
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Edm Detection Mode
+```
+The following music was used for this media project:
+Music: Edm Detection Mode by Kevin MacLeod
+Free download: https://filmmusic.io/song/4987-edm-detection-mode
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Shiny Tech
+```
+The following music was used for this media project:
+Music: Shiny Tech by Kevin MacLeod
+Free download: https://filmmusic.io/song/4347-shiny-tech
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Shiny Tech II
+```
+The following music was used for this media project:
+Music: Shiny Tech II by Kevin MacLeod
+Free download: https://filmmusic.io/song/4348-shiny-tech-ii
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
+
+# Hitman
+```
+The following music was used for this media project:
+Music: Hitman by Kevin MacLeod
+Free download: https://filmmusic.io/song/3880-hitman
+License (CC BY 4.0): https://filmmusic.io/standard-license
+Artist website: https://incompetech.com
+```
