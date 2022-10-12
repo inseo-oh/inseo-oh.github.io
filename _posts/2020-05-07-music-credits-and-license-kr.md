@@ -119,3 +119,48 @@ categories: static
 아티스트 웹사이트: https://incompetech.com
 ```
 
+## Electro Cabello
+```
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Electro Cabello by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/3705-electro-cabello
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
+```
+
+## Edm Detection Mode
+```
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Edm Detection Mode by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4987-edm-detection-mode
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
+```
+
+## Shiny Tech
+```
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Shiny Tech by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4347-shiny-tech
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
+```
+
+## Shiny Tech II
+```
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Shiny Tech II by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/4348-shiny-tech-ii
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
+```
+
+## Hitman
+```
+이 미디어 프로젝트에 다음 음악이 사용되었습니다:
+음악: Hitman by Kevin MacLeod
+무료 다운로드: https://filmmusic.io/song/3880-hitman
+라이선스 (CC BY 4.0): https://filmmusic.io/standard-license
+아티스트 웹사이트: https://incompetech.com
+```
+
