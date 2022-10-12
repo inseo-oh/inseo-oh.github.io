@@ -82,7 +82,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Midsummer Sky
+## Midsummer Sky
 ```
 The following music was used for this media project:
 Music: Midsummer Sky by Kevin MacLeod
@@ -91,7 +91,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Clear Waters
+## Clear Waters
 ```
 The following music was used for this media project:
 Music: Clear Waters by Kevin MacLeod
@@ -100,7 +100,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Continue Life
+## Continue Life
 ```
 The following music was used for this media project:
 Music: Continue Life by Kevin MacLeod
@@ -109,7 +109,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Eternal Hope
+## Eternal Hope
 ```
 The following music was used for this media project:
 Music: Eternal Hope by Kevin MacLeod
@@ -118,7 +118,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Electro Cabello
+## Electro Cabello
 ```
 The following music was used for this media project:
 Music: Electro Cabello by Kevin MacLeod
@@ -127,7 +127,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Edm Detection Mode
+## Edm Detection Mode
 ```
 The following music was used for this media project:
 Music: Edm Detection Mode by Kevin MacLeod
@@ -136,7 +136,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Shiny Tech
+## Shiny Tech
 ```
 The following music was used for this media project:
 Music: Shiny Tech by Kevin MacLeod
@@ -145,7 +145,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Shiny Tech II
+## Shiny Tech II
 ```
 The following music was used for this media project:
 Music: Shiny Tech II by Kevin MacLeod
@@ -154,7 +154,7 @@ License (CC BY 4.0): https://filmmusic.io/standard-license
 Artist website: https://incompetech.com
 ```
 
-# Hitman
+## Hitman
 ```
 The following music was used for this media project:
 Music: Hitman by Kevin MacLeod
