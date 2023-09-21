@@ -1,11 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>YEONJIKUN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Music&family=Noto+Serif&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="logo.css">
+  <link rel="stylesheet" href="banner.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Noto Serif', serif;
+    }
+
+    p {
+      margin: 8px 0px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      filter: hue-rotate(90deg);
+      font-weight: bold;
+    }
+
+    #wrap {
+      width: 900px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 150px;
+    }
+
+    .logo {
+      display: block;
+      position: fixed;
+      right: 32px;
+      bottom: 32px;
+      opacity: 0.7;
+      transition-duration: 1s;
+      transition-property: transform, opacity;
+      cursor: default;
+    }
+
+    .logo:hover {
+      transform: rotateZ(10deg) scale(1.3);
+      opacity: 1;
+    }
+
+    .mainArea {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    nav {
+      position: sticky;
+      top: 20px;
+    }
+
+    .navSection {
+      background: #eed;
+      margin: 8px;
+      width: 200px;
+    }
+
+    .navSection h1 {
+      font-size: 1.2em;
+      background: #573;
+      color: white;
+      padding: 4px 8px;
+      margin-bottom: 0;
+    }
+
+    .navSection ul {
+      margin: 0;
+      padding: 4px 30px;
+      color: black;
+    }
+
+    .navSection a {
+      color: #140;
+    }
+
+    address h4 {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
+      padding: 0px 8px;
+    }
+
+    /* Hide logo if screen isn't wide enough, to avoid logo covering the content. */
+    @media screen and (max-width: 1080px) {
+      .logo {
+        display: none;
+      }
+    }
+
+    footer {
+      height: 50px;
+      padding-top: 15px;
+      text-align: center;
+    }
+
+    /****************************************
+     * Dark mode support
+     ****************************************/
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #111;
+        color: #ccc;
+      }
+
+      a {
+        color: #aaf;
+      }
+
+      .navSection {
+        background: #130;
+      }
+
+      .navSection h1 {
+        background: #240;
+        color: inherit;
+      }
+
+      .navSection ul {
+        color: inherit;
+      }
+
+      .navSection a {
+        color: #bc1;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>it works lol</h1>
+  <div id="wrap">
+    <header class="banner">
+      <div>
+        <h1>𝄆&nbsp;yeonj𝅘𝅥𝅮kun&nbsp;𝄇</h1>
+        <p class="bannerNote">note that i know almost nothing about musical theory</p>
+      </div>
+    </header>
+    <div class="mainArea">
+      <div>
+        <nav>
+          <div class="navSection">
+            <h1>Sections</h1>
+            <ul>
+              <li><a href="#">Top</a></li>
+              <li>
+                <a href="#sec-human-language-skills">Human language skills</a>
+                <ul>
+                  <li><a href="#sec-human-language-skills-kr">Korean</a></li>
+                  <li><a href="#sec-human-language-skills-en">English</a></li>
+                  <li><a href="#sec-human-language-skills-jp">Japanese</a></li>
+                </ul>
+              </li>
+              <li><a href="#sec-programs-i-use">Computer programs I use</a></li>
+              <li><a href="#sec-too-deep-into-computing">I've gone too deep into computing</a></li>
+              <li><a href="#sec-no-more">Things that I don't do anymore</a></li>
+            </ul>
+          </div>
+          <div class="navSection">
+            <h1>Links</h1>
+            <ul>
+              <li><a href="https://www.youtube.com/@yjk_ch" target="_blank">YouTube channel</a></li>
+              <li><a href="https://github.com/yeonji2" target="_blank">GitHub</a></li>
+              <li><a href="https://x.com/yeonjikun" target="_blank">X / Twitter</a></li>
+            </ul>
+          </div>
+          <div class="navSection">
+            <h1>Contact</h1>
+            <address>
+              <ul>
+                <li>
+                  <h4>X / Twitter DM</h4><a href="https://x.com/yeonjikun" target="_blank">@yeonjikun</a>
+                </li>
+                <li>
+                  <h4>Discord</h4>yjkyjk
+                </li>
+                <li>
+                  <h4>E-Mail</h4><a href="mailto:dhdlstjtr@gmail.com">dhdlstjtr@gmail.com</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </nav>
+      </div>
+      <main>
+        <h1>YEONJIKUN</h1>
+        <small>(Korean name: 연지쿤, Japanese name: よんじくん(YONJIKUN))</small>
+        <p>Hi, I'm YEONJIKUN. I am Korean and live in South Korea. I make music box arrangements on YouTube! Usually
+          it's
+          Japanese songs, because that's what I often listen to(especially Hololive ones). Visit <a
+            href="https://www.youtube.com/@yjk_ch" target="_blank">my YouTube channel</a> to enjoy!
+        </p>
+        <p>
+          I also love computers, and I'm currently studying modern web frontend development(primarily HTML + CSS + JS).
+          I
+          also have experience with other computer languages in the past, including:
+        </p>
+        <ul>
+          <li>C, C++, Rust, Go</li>
+          <li>Java, C#</li>
+          <li>Python, Lua</li>
+          <li>Emacs LISP (I mostly forgot about this though)</li>
+        </ul>
+        <p>Bear in mind that I don't call myself as professional for any of these languages.</p>
+        <p>Retro computing is also one of my interests, though I don't have or plans for having actual machines. And I'm
+          not interested in retro gaming.</p>
+        <section id="sec-human-language-skills">
+          <h2>Human language skills</h2>
+          <h3 id="sec-human-language-skills-kr">Korean</h3>
+          <p>
+            My native language, though I no longer use it on my channel and social platforms, mainly because I got tired
+            of doing translations.
+          </p>
+          <h3 id="sec-human-language-skills-en">English</h3>
+          <p>
+            I learned English from acadamy when I was child, and I also probably watched millions of English videos(and
+            I
+            still do) on YouTube. So I think my English skills are okay, at least for what I do.<br>
+            Currently my limitations are:
+          </p>
+          <ul>
+            <li>My brain's English dictionary is mostly built for technology. In other words, I am not good at words you
+              actually use in real life.</li>
+            <li>If someone speaks fast, I can't understand very well.</li>
+            <li>I'm not confident enough to speak in English, though I can write English just fine.</li>
+          </ul>
+          <p>So when I open takling live stream from one of Hololive EN members for example, I usually give up watching
+            after 1 minute.</p>
+          <p>Knowing English was(and is) very helpful for computer adventures, not just because I can easily read the
+            program
+            code(unless one uses horrifying naming convention), but also I can read reference documentation written in
+            English <em>without</em> any help(in most cases).</p>
+          <p>I'm also glad that I have OK English skills, because it's pretty tough to find Korean people with
+            similar interests to mine, since <a href="#sec-too-deep-into-computing">I've gone too deep into
+              computing.</a>
+            Almost nobody near me would undestand what I'm talking about.
+          <h3 id="sec-human-language-skills-jp">Japanese</h3>
+          <p>
+            Almost non-existent. I'm slowly learning Japanese, and I can in fact read most Hiragana, and around 60% of
+            Katakana I think. But of course I don't know a lot of Japanese words, and Kanji is of course the biggest
+            hurdle.<br>
+            That being said, in some ways it <em>is</em> similar to Korean, so some words are pretty easy to remember.
+            And
+            we do learn Kanji(or Hanja in Korean) in school(even though I forgot most of them). So I know meaning of
+            some
+            characters at least, though this is also a bit problematic when trying to memorize word because something
+            like
+            this keeps happening:
+          </p>
+          <blockquote>
+            Me: Well I don't remember what Ki-Ku was.<br>
+            (Then my eyes look at the Kanji character)<br>
+            Me: Oh yeah now I remember what it was.
+          </blockquote>
+        </section>
+        <section id="sec-programs-i-use">
+          <h2>Computer programs I use</h2>
+          <ul>
+            <li><b>Writing software code:</b> <a href="https://code.visualstudio.com/">VSCode</a>, or <a
+                href="https://www.vim.org/">Vim</a> with minimal config when I want to save battery life.</li>
+            <li><b>Arrangement:</b> <a href="https://github.com/LMMS/lmms">LMMS</a></li>
+            <li><b>Making videos:</b> Originally DaVinci Resolve, but nowadays I use my own program written in C to
+              generate all videos for my arrangements. Not only I can now just run the program and just let it bake the
+              video, but also I have one less thing to worry about subscription model transition, which no matter what
+              the
+              company says, it is simply inevitable. Companies want more ways to steal money from your pocket. <i>I'm
+                looking at you Clip Studio Paint.</i><br>
+              <strong>Note that my program for creating videos is not available publically.</strong> My program is
+              written
+              specifically for my design, and I don't want people replicating my videos using my program with zero
+              effort.
+            </li>
+            <li><b>Operating System:</b> Windows. Linux is okay on desktop, but I use laptop nowadays, and I use battery
+              charge limiter software from manufacturer. And unfortunately there is no standard for this feature as far
+              as
+              I know, and all known methods are manufacturer-specific. And don't have any hopes for my Samsung
+              NT500R3W-KD5S laptop.</li>
+          </ul>
+        </section>
+        <section id="sec-too-deep-into-computing">
+          <h2>I've gone too deep into computing</h2>
+          <p>I'm pretty sure that I'm one of those people who loves computer <em>too much</em> and have fallen into
+            multiple very in-depth topics. Here's some of what I've done over the years:</p>
+          <ul>
+            <li>
+              Watching videos about computer security, especially ones for video game consoles. It's interesting to see
+              how game consoles prevent users from running their own software, and also learn how it was broken. And
+              enjoy
+              some hilarious moments like <a href="https://youtu.be/DUGGJpn2_zY?si=A8K2J3Jy8WVkhhpP&t=2110">how Sony
+                managed to "leak" their signing <i>private key</i> thanks to their laughable ECDSA implementation</a>.
+            </li>
+            <li>Watching videos about vintage UNIX machines(Sun, IBM RS/6000, etc...).</li>
+            <li>
+              Writing hardware emulation code, though I've never finished any of them. I wrote 6502 and MC68000
+              emulators
+              in the past, and had partial success with writing my own Apple I and II, C64 emulator. I tried writing
+              Atari
+              ST
+              emulator with goal being booting to EmuTOS desktop, but it never booted properly.
+            </li>
+            <li>
+              Try to make my own OS. I don't do this anymore, as I learned that I can't handle big projects on myself.
+              And writing an OS is <em>very</em> big project.<br>
+              But during the process, I learned how to write x86-64 assembly, basic concepts about virtual addressing,
+              how
+              swap memory(or Paging File under Windows) can be implemented, some details about x86 and x86-64
+              architecture. And I did write an incredibly bare-bones read-only ext2 filesystem driver, preemptive
+              multitasking microkernel, IPC system for two processes to communicate, my own graphics drawing routines,
+              etc...
+            </li>
+          </ul>
+        </section>
+        <hr>
+        <section id="sec-no-more">
+          <h2>Things that I don't do anymore</h2>
+          <p>Sometimes I start doing something, and then realize how bad I'm at it many, many years later.</p>
+          <ul>
+            <li><b>Live streaming: </b>I used to do live streaming on Twitch for many years, but without any meaningful
+              result. Later, after months of break, I decided to give another shot.<br>
+              But while I think I became better at streaming than before, it didn't took too long to realize I didn't
+              feel
+              comfortable at continuous talking on live. And there's almost nothing I could do other than talking. I
+              don't
+              play video games, cooking, or anything else really.<br>
+              Eventually, I stopped doing live streaming, and decided to focus on studying frontend web development.<br>
+              I did try some programming on stream, but not only no existing viewers were interested, but also I just
+              didn't feel comfortable when writing code on live.<br>
+              The software I used for streaming is of course <a href="https://obsproject.com/" target="_blank">Open
+                Broadcaster
+                Software</a>.
+            </li>
+            <li><b>Drawing illusts: </b>I was also drawing illusts because it necessary when I was doing live streaming.
+              I
+              don't
+              ask somebody else to make assets for my contents. If I don't do it myself, I don't feel like it's purely
+              my
+              content.<br>
+              However, while I was clearly getting better than years ago, I think it's still comically bad for any
+              serious
+              usage. Eventually, not only I stopped drawing things entirely, <em>ALL</em> of my existing music box
+              videos
+              were recreated with new design with original album art, using the C program I mentioned <a
+                href="#sec-programs-i-use">above</a>.<br>
+              For the record, I used various painting software over the years:
+              <ul>
+                <li><a href="https://medibangpaint.com/en" target="_blank">MediBang Paint Pro</a></li>
+                <li><a href="https://www.clipstudio.net/en/" target="_blank">Clip Studio Paint Pro</a></li>
+                <li><a href="https://www.gimp.org/" target="_blank">GIMP</a></li>
+                <li><a href="https://krita.org/" target="_blank">Krita</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <footer>
+      &copy; 2023 YEONJIKUN
+    </footer>
+
+    <div class="logo" href="#">
+      <span>yjk</span>
+    </div>
+  </div>
+
 </body>
+
 </html>
