@@ -341,12 +341,12 @@ body {
 .portfolio-slides {
   margin-top: 40px;
   width: 100%;
-  height: 620px;
+  height: 660px;
 }
 
 .portfolio-slides .swiper-slide {
   width: 600px;
-  height: 620px;
+  height: 660px;
   display: flex;
   flex-flow: column;
   overflow: hidden;
@@ -391,7 +391,7 @@ body {
   border-radius: 25px;
   border: 1px solid white;
   transition-duration: 0.3s;
-  transition-property: color background;
+  transition-property: color, background;
 }
 
 .portfolio-visit-button:hover {
@@ -405,7 +405,7 @@ body {
   line-height: 1.5;
   background: #111;
   color: #eee;
-  padding-bottom: none;
+  padding-bottom: 0;
 }
 
 .footer .big-title {
