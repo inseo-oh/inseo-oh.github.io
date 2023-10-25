@@ -381,7 +381,7 @@ body {
 
 .portfolio-visit-button:link,
 .portfolio-visit-button:visited {
-  display: block;
+  display: inline-block;
   color: #eee;
   text-decoration: none;
   width: 100px;
