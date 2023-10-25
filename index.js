@@ -1,7 +1,9 @@
-setupScrollSpy();
-startTypewriterEffect(document.querySelector(".intro-page .big-title"));
-setupSwiper();
-setupCursor();
+$(function () {
+  setupScrollSpy();
+  startTypewriterEffect($(".intro-page .big-title"));
+  setupSwiper();
+  setupCursor();
+});
 
 function setupSwiper() {
   const swiper = new Swiper('.portfolio-slides', {
@@ -24,38 +26,14 @@ function setupSwiper() {
   });
 }
 
-function getElementXPosition(element) {
-  if (element.style.display == "none") {
-    console.error("getElementXPosition() cannot be used when display: none (element: ", element, ")");
-  }
-  let offsetLeft = element.offsetLeft;
-  if (element.offsetParent != null) {
-    offsetLeft += getElementXPosition(element.offsetParent);
-  }
-  return offsetLeft;
-}
-
-
-function getElementYPosition(element) {
-  if (element.style.display == "none") {
-    console.error("getElementYPosition() cannot be used when display: none (element: ", element, ")");
-  }
-  let offsetTop = element.offsetTop;
-  if (element.offsetParent != null) {
-    offsetTop += getElementYPosition(element.offsetParent);
-  }
-  return offsetTop;
-}
-
-
 function startTypewriterEffect(element) {
-  const text = element.innerText;
+  const text = element.text();
   let currentBigTitleLen = 0;
-  element.innerText = "";
-  element.classList.remove("typewriter-hidden");
+  element.text("");
+  element.removeClass("typewriter-hidden");
   const typewriterEffectInterval = setInterval(function () {
     ++currentBigTitleLen;
-    element.innerText = text.substring(0, currentBigTitleLen);
+    element.text(text.substring(0, currentBigTitleLen));
     if (currentBigTitleLen == text.length) {
       clearInterval(typewriterEffectInterval);
     }
@@ -63,28 +41,29 @@ function startTypewriterEffect(element) {
 }
 
 function setupCursor() {
-  const cursor = document.querySelector(".cursor");
-  cursor.classList.add("hidden");
-  window.addEventListener("mousemove", function (e) {
-    cursor.style.left = `${e.clientX - (cursor.clientWidth / 2)}px`;
-    cursor.style.top = `${e.clientY - (cursor.clientHeight / 2)}px`;
-    cursor.classList.remove("hidden");
+  const cursor = $(".cursor");
+  cursor.addClass("hidden");
+  $(window).mousemove(function (e) {
+    cursor.css("left", e.clientX - (cursor.height() / 2));
+    cursor.css("top", e.clientY - (cursor.height() / 2));
+    cursor.removeClass("hidden");
   });
 
-  for (const element of document.querySelectorAll("a, button, .swiper-button-prev, .swiper-button-next")) {
-    element.addEventListener("mouseenter", function () {
-      cursor.classList.add("pointer");
-    });
-    element.addEventListener("mouseleave", function () {
-      cursor.classList.remove("pointer");
-    });
-    element.addEventListener("click", function () {
-      cursor.classList.add("pointer-fired");
-      setTimeout(function() {
-        cursor.classList.remove("pointer-fired");
-      }, 400);
-    });
-  }
+  const pointables = $("a, button, .swiper-button-prev, .swiper-button-next");
+  pointables.hover(
+    function () {
+      cursor.addClass("pointer");
+    },
+    function () {
+      cursor.removeClass("pointer");
+    }
+  );
+  pointables.click(function () {
+    cursor.addClass("pointer-fired");
+    setTimeout(function () {
+      cursor.removeClass("pointer-fired");
+    }, 400);
+  });
 }
 
 
@@ -93,46 +72,41 @@ function setupScrollSpy() {
   const topMenuScrollActivateOffset = -20;
   let footerTypewriterEffectStarted = false;
 
-  window.addEventListener("scroll", function () {
-    const html = document.querySelector("html");
+  $(window).scroll(function () {
+    const html = $("html");
+    const scrollTop = html.scrollTop();
 
     // 스크롤할때 현재 페이지에만 page-active 클래스를 줌
-    const pages = document.querySelectorAll(".page-container");
-    for (const page of pages) {
-      page.classList.remove("page-active");
-    }
-    let currentPage = null;
-    for (const page of pages) {
-      if (page.offsetTop < (html.scrollTop + (window.innerHeight / 3))) {
-        currentPage = page;
+    $(".page-container").removeClass("page-active");
+    $(".page-container").filter(function(n, element) {
+      if ($(element).offset().top < (scrollTop + ($(this).height() / 3))) {
+        return true;
       }
-    }
-    currentPage.classList.add("page-active");
+      return false;
+    }).addClass("page-active");
 
     // 푸터 타자기 효과
     if (!footerTypewriterEffectStarted) {
-      const footerBigTitle = document.querySelector("footer .big-title");
-      if ((getElementYPosition(footerBigTitle) + scrollActivateOffset) < (html.scrollTop + window.innerHeight)) {
+      const footerBigTitle = $("footer .big-title");
+      if ((footerBigTitle.offset().top + scrollActivateOffset) < (scrollTop + $(this).height())) {
         startTypewriterEffect(footerBigTitle);
         footerTypewriterEffectStarted = true;
       }
     }
 
     // 스크롤할때 현재 페이지에 맞춰 상단 메뉴에 흰색으로 강조된 메뉴를 바꿈
-    for (const menuItem of document.querySelectorAll(".root-menu-item")) {
-      menuItem.classList.remove("root-menu-item-highlight");
-    }
-    const nonHeaderPages = document.querySelectorAll("div.page-container, footer");
+    $(".root-menu-item").removeClass("root-menu-item-highlight");
+ 
     let currentPageIndex = 0;
-    for (let i = 0; i < nonHeaderPages.length; ++i) {
-      if ((getElementYPosition(nonHeaderPages[i]) + topMenuScrollActivateOffset < html.scrollTop)) {
-        currentPageIndex = i;
+    $("div.page-container, footer").each(function(n, element) {
+      if (($(element).offset().top + topMenuScrollActivateOffset) < scrollTop) {
+        currentPageIndex = n;
       }
-    }
-    document.querySelector(`.root-menu-item:nth-of-type(${currentPageIndex + 1})`).classList.add("root-menu-item-highlight");
+    });
+    $(`.root-menu-item:nth-of-type(${currentPageIndex + 1})`).addClass("root-menu-item-highlight");
 
     // 스크롤 인디케이터 업데이트
-    const scrollIndicatorWidthPercent = (html.scrollTop * 100) / (html.offsetHeight - window.innerHeight);
-    document.querySelector(".scroll-indicator").style.width = `${scrollIndicatorWidthPercent}%`;
+    const scrollIndicatorWidthPercent = (scrollTop * 100) / (html.height() - $(this).height());
+    $(".scroll-indicator").css("width", `${scrollIndicatorWidthPercent}%`);
   });
 }
