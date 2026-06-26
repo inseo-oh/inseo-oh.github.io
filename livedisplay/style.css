@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Noto Sans JP', sans-serif;
+}
+/* 1000x270 원본 비율 유지하며 화면에 꽉 차게 조절 */
+.display-container {
+    width: 100vw;
+    height: 27vw; /* 1000:270 비율 */
+    max-height: 100vh;
+    max-width: 370.37vh; /* 역산 비율 */
+    background-color: #000;
+    border: 1.5vw solid #bcbcbc; /* 전철 내부 모니터 프레임 느낌 */
+    border-radius: 4px;
+    box-shadow:
+        inset 0 0 20px rgba(0, 0, 0, 0.8),
+        0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+}
+
+/* 왼쪽 안내 영역 */
+.left-panel {
+    width: 56%;
+    height: 100%;
+    background-color: #070707;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1% 1.5%;
+}
+
+/* 상단 바 영역 */
+.top-bar {
+    display: flex;
+    height: 32%;
+    width: 100%;
+    gap: 5px;
+    margin-bottom: 1%;
+}
+.local-box {
+    width: 32%;
+    background: linear-gradient(180deg, #0093dd 0%, #005c9e 50%, #004375 100%);
+    border: 2px solid #fff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3.2vw;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.destination-arrow {
+    width: 68%;
+    background: linear-gradient(180deg, #d2dae2 0%, #b0bcc7 100%);
+    clip-path: polygon(0% 0%, 93% 0%, 100% 50%, 93% 100%, 0% 100%, 4% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-left: 2%;
+}
+.destination-arrow span {
+    font-size: 2.2vw;
+    font-weight: normal;
+    margin-right: 8px;
+}
+
+/* 파란색 구분선 */
+.blue-line {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #0055a5, #00a0e9);
+    margin-bottom: 2%;
+}
+
+/* 메인 역명 영역 */
+.main-station-area {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 1%;
+}
+.station-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 4%;
+}
+.next-stop-text {
+    color: #fff;
+    font-size: 1.2vw;
+    position: absolute;
+    top: -1.8vw;
+    white-space: nowrap;
+    left: 0;
+}
+.station-name-main {
+    color: #ffffff;
+    font-size: 7.2vw;
+    font-weight: 700;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* 오른쪽 문 열림 안내 영역 */
+.right-panel {
+    width: 44%;
+    height: 100%;
+    background-color: #fff;
+    border-left: 4px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5% 2%;
+    position: relative;
+}
+.jp-text {
+    color: #d11c1c;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.en-text {
+    color: #d11c1c;
+    font-size: 2.3vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 문 및 화살표 그래픽 영역 (SVG 포함) */
+.graphic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.svg-graphic {
+    width: 100%;
+    height: 100%;
+}
