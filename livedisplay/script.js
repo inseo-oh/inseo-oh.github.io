@@ -33,6 +33,11 @@ const locations = [
     { code: '318', name: '왕 십 리', lat: 37.5622085, long: 127.0381041 },
     { code: '319', name: '청 량 리', lat: 37.5817577, long: 127.0492208 },
 ];
+
+window.onerror = (e) => {
+    alert(e);
+};
+
 const stationBadge = document.querySelector('.station-badge text:nth-of-type(2)');
 const stationNameMain = document.querySelector('.station-name-main');
 const onUpdate = (position) => {
