@@ -35,7 +35,7 @@ const locations = [
 ];
 const stationBadge = document.querySelector('.station-badge text:nth-of-type(2)');
 const stationNameMain = document.querySelector('.station-name-main');
-navigator.geolocation.getCurrentPosition((position) => {
+const onUpdate = (position) => {
     let minDiff;
     let chosenSt = { code: '999', name: '알 수 없 음' };
     for (const st of locations) {
@@ -49,6 +49,51 @@ navigator.geolocation.getCurrentPosition((position) => {
     }
     stationBadge.textContent = chosenSt.code;
     stationNameMain.textContent = chosenSt.name;
-});
+};
 stationBadge.textContent = '---';
 stationNameMain.textContent = '로 드 중';
+
+function onError(e) {
+    console.error(e);
+}
+
+window.onload = function () {
+    if (navigator.geolocation === undefined) {
+        stationNameMain.textContent = '지원 안됨';
+        return;
+    }
+    var initWatch = function (alreadyGranted, notGrantedReason) {
+        stationNameMain.textContent = '잠 시 만';
+        if (!alreadyGranted) {
+            stationNameMain.textContent = '화면을 터치';
+            console.error(notGrantedReason);
+            stationNameMain.onclick = function () {
+                stationNameMain.textContent = '위치 요청됨';
+                stationNameMain.onclick = undefined;
+                navigator.geolocation.watchPosition(onUpdate, onError);
+            };
+        } else {
+            navigator.geolocation.watchPosition(onUpdate, onError);
+        }
+    };
+    if (navigator.permissions !== undefined) {
+        navigator.permissions
+            .query({ name: 'geolocation' })
+            .then(function (result) {
+                if (result.state === 'granted') {
+                    initWatch(true);
+                } else if (result.state == 'denied') {
+                    stationNameMain.textContent = '권한 거부';
+                } else if (result.state == 'prompt') {
+                    initWatch(false, 'Geolocation permission needed');
+                } else {
+                    initWatch(false, 'Unknown permission state "' + result.state);
+                }
+            })
+            .catch(function (e) {
+                initWatch(false, 'permission state unknown: ' + e);
+            });
+    } else {
+        initWatch(false, 'permission API not supported');
+    }
+};
